@@ -28,8 +28,8 @@ k = j / 2;
 
 for (; k < j; k++)
 {
-_putchar(str[k]);
+putchar(str[k]);
 }
 
-_putchar('\n');
+putchar('\n');
 }
