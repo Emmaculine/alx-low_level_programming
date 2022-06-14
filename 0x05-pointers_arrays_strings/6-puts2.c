@@ -18,7 +18,7 @@ j++;
 
 for (i = 0; i < j; i += 2)
 {
-putchar(str[i]);
+putchar(str[j]);
 }
 
 putchar('\n');
