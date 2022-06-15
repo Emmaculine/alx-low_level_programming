@@ -1,27 +1,22 @@
-/*
- * File: 0-main.c
- * Auth: Brennan D Baraban
- *
- */
-
+#include <unistd.h>
 #include "main.h"
 
 /**
-  * main - Entry point
-  *
-  * Return: Always 0
-  */
+ * main - Check description
+ * Description: It prints the word _putchar, followed by a new line.
+ * Return: 0.
+ */
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
+char word[8] = "_putchar";
+int i;
+
+for (i = 0; i < 8; i++)
+{
+_putchar(word[i]);
+}
 _putchar('\n');
 
 return (0);
 }
+
